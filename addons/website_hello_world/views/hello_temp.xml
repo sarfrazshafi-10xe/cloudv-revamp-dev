@@ -1,0 +1,14 @@
+<odoo>
+    <template id="hello_template" name="Hello World Page">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h1 class="hello-title">
+					Hello World 👋
+				</h1>
+
+                <h3>Records:</h3>
+
+            </div>
+        </t>
+    </template>
+</odoo>
